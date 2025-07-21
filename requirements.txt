@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 streamlit
 pdf2image 
 google-generativeai
@@ -6,13 +5,4 @@ PyPDF2
 faiss-cpu
 langchain
 langchain_google_genai
-=======
-streamlit
-pdf2image 
-google-generativeai
-PyPDF2
-faiss-cpu
-langchain
-langchain_google_genai
->>>>>>> 2befb25 (Updated main.py with latest changes)
 python-dotenv
