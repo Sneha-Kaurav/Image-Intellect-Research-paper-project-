@@ -1,19 +1,15 @@
-from dotenv import load_dotenv
-
-load_dotenv() 
-
+# from dotenv import load_dotenv
 import streamlit as st
-import os
+# import os
 import pathlib
 import textwrap
 from PIL import Image
-
-
 import google.generativeai as genai
 
-
-os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+# load_dotenv() 
+# os.getenv("GOOGLE_API_KEY")
+# genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 ## Function to load OpenAI model and get respones
 
