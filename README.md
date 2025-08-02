@@ -4,4 +4,9 @@ It is a GenAI application that uses open-sourced Google Gemini API to generate r
 This project has been deployed using Streamlit app deployment.
 
 <Description>
-Image intellect takes images of medicines, reports, handwritten doctor prescriptions and explains its details to a normal person who isn't proficient with medical jargons and reports.
+Image intellect takes images of 
+  <ul> <li>medicines,</li> 
+    <li>reports,</li> 
+    <li>handwritten doctor prescriptions </li>
+  </ul>
+  and explains its details to a normal person who isn't proficient with medical jargons and reports.
